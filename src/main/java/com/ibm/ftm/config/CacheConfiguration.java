@@ -42,6 +42,7 @@ public class CacheConfiguration {
             createCache(cm, com.ibm.ftm.domain.User.class.getName());
             createCache(cm, com.ibm.ftm.domain.Authority.class.getName());
             createCache(cm, com.ibm.ftm.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ibm.ftm.domain.Shedular.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
